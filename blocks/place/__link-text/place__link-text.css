@@ -1,0 +1,5 @@
+.place__link-text {
+  font-size: 12px;
+  line-height: 1;
+  color: var(--clr-accent);
+}

@@ -1,0 +1,8 @@
+.header__lang-link {
+  color: var(--clr-text);
+  display: inline-block;
+}
+
+.header__lang-link:first-of-type {
+  margin-right: 18px;
+}
