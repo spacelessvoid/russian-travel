@@ -8,7 +8,6 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    margin-bottom: 80px;
     grid-template-columns: minmax(340px, 440px) calc(50% - 32px);
     column-gap: 32px;
   }
@@ -22,10 +21,16 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 590px) {
   .place {
     margin-bottom: 50px;
-    grid-template-columns: minmax(320px, 550px);
+    grid-template-columns: minmax(390px, 500px);
     gap: 32px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .place {
+    grid-template-columns: minmax(320px, 390px);
   }
 }
