@@ -24,13 +24,13 @@
 @media screen and (max-width: 590px) {
   .place {
     margin-bottom: 50px;
-    grid-template-columns: minmax(390px, 500px);
+    grid-template-columns: minmax(350px, 500px);
     gap: 32px;
   }
 }
 
 @media screen and (max-width: 390px) {
   .place {
-    grid-template-columns: minmax(320px, 390px);
+    grid-template-columns: minmax(300px, 390px);
   }
 }
